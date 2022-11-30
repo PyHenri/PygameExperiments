@@ -1,11 +1,14 @@
 import pygame
-from config import *
 
 pygame.init()
 clock = pygame.time.Clock()
 running = True
 screen = pygame.display.set_mode((width, height))
-
+ScreenHeight = 500
+ScreenWidth = 700
+width = 300
+height = 500
+blockSize = 20
 time = 0
 
 def drawGrid():
